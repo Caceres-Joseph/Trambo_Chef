@@ -22,12 +22,11 @@ default[:redis][:pid_file]          = "/var/run/redis.pid"
 # Recipes
 
 ## Setup
-### default.rb
+### Setup.rb
 
 Install redis server and configure the file.conf 
 
-
-### awscli1.rb
+ 
 Installing AWS SDK whith next code 
 ```
 gem_package 'aws-sdk' do
@@ -37,7 +36,7 @@ end
 
 
 ## Configuration
-### dynamo.rb
+### Configuration.rb
 
 In this recipe are betwen the diference master and slave, first push master ip in dynamo DB for add before to node salaves 
 If the ip aren't in the dynamo will be insert whith this command
