@@ -65,5 +65,6 @@ Before copy file.conf, the server redis will reload whit this code
 ```
 
 
-
+## Diagram of the architecture
+![Diagram](image.png)
 
