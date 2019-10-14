@@ -1,4 +1,5 @@
-# Trambo
+# TramboCloud
+Author: Jhosef Omar Cáceres Aguilar
 
 In this exercise first we create a stack in opsworks in aws, before create a layer in the stack
 
